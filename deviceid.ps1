@@ -1,4 +1,4 @@
-$file = "%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftpe\h1"
+$file = "AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftpe\h1"
 
 $content = Get-Content $file -Raw
 
